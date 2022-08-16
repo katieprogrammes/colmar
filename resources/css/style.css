@@ -1,31 +1,42 @@
 header {
     width: 100%;
     background-color: white;
-}
-header.content {
     height: 64px;
+}
+header .content {
     display: flex;
     align-items: center;
+    padding: 0 1rem;
 }
-.content .logo {
-    height: 50px;
-    padding-left: 16px;
-}
-span {
-    font-weight: 800;
-}
-nav {
+.desktop {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-}    
-li {
-    display: inline-block;
-    position: relative;
-    padding-right: 30px;
+    justify-content: flex-end;
 }
 header nav ul {
     display: flex;
 }
-header .mobile {
-    display: none;
+header nav li {
+    list-style: none;
+    padding-left: 2rem;
+    text-decoration: none;
+}
+img .logo {
+    height: 32px;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.25rem;
+}
+
+.logo-text .colmar {
+    color: black;
+}
+
+@media only screen and (min-width: 481px) {
+    .mobile {
+        display: none;
+    }
 }
