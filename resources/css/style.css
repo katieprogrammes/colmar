@@ -1,3 +1,31 @@
-git remote add origin https://github.com/katieprogrammes/colmar.git
-git branch -M main
-git push -u origin main
+header {
+    width: 100%;
+    background-color: white;
+}
+header.content {
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+.content .logo {
+    height: 50px;
+    padding-left: 16px;
+}
+span {
+    font-weight: 800;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}    
+li {
+    display: inline-block;
+    position: relative;
+    padding-right: 30px;
+}
+header nav ul {
+    display: flex;
+}
+header .mobile {
+    display: none;
+}
