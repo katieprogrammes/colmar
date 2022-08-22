@@ -24,7 +24,7 @@ header a {
 header nav li {
     list-style: none;
     padding-left: 2rem;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 img .logo {
     height: 32px;
@@ -63,7 +63,7 @@ img .logo {
 .bantent {
     padding-left: 5rem;
     padding-top: 4rem;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .bantent h1 {
     font-size: 4rem;
