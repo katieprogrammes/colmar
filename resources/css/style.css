@@ -1,3 +1,6 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
 header {
     width: 100%;
     background-color: white;
@@ -24,7 +27,6 @@ header a {
 header nav li {
     list-style: none;
     padding-left: 2rem;
-    font-family: 'Ubuntu', sans-serif;
 }
 img .logo {
     height: 32px;
@@ -86,4 +88,50 @@ img .logo {
 }
 .button-link {
     color: white;
+}
+/*Second Section*/
+.second {
+    display: inline-flex;
+    padding-top: 32px;
+}
+.information {
+    width: 800px;
+    padding: 32px 24px;
+}
+.information h1 {
+    padding-top: 32px;
+    font-size: 2.5rem;
+}
+.information p {
+    padding: 24px;
+    line-height: 1.5rem;
+    font-size: 1.15rem;
+}
+.information img {
+    width: 800px;
+    height: auto;
+}
+.side {
+    border-left: 1px solid lightgray;
+}
+.mini {
+    display: inline-flex;
+    border-bottom: 1px solid lightgray;
+    width: 650px;
+}
+.mini3 {
+    display: inline-flex;
+    width: 650px;
+    background-color: lightgray;
+}
+.minibox {
+    padding: 16px;
+}
+.minibox img {
+    width: 200px;
+    height: auto;
+}
+.minitext {
+    font-size: 1.3rem;
+    padding: 30px;
 }
