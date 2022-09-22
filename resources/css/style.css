@@ -176,3 +176,68 @@ img .logo {
 .boxtitle {
     padding: 8px 0px;
 }
+/*Thesis*/
+.thesis h1 {
+    text-align: center;
+    padding: 32px;
+}
+.exhibits {
+    display: inline-flex;
+}
+.exvideo {
+    width: 800px;
+    padding: 32px 24px 24px 24px;
+}
+.exvideo video{
+    width: 800px;
+    height: auto;
+}
+.exvideo h2 {
+    font-size: 2rem;
+    padding-bottom: 8px;
+}
+.exvideo p {
+    font-size: 1.25rem;
+    padding-bottom: 32px;
+}
+.sidesearch {
+    display: inline-flex;
+    width: 650px;
+}
+.fisma {
+    display: inline-flex;
+    background-color: lightgray;
+    width: 650px;
+}
+.sidebox {
+    padding: 16px;
+}
+.sidebox img {
+    width: 200px;
+    height: auto;
+}
+.sidetext {
+    padding-left: 16px;
+    padding-bottom: 24px;
+}
+.sidetext h2 {
+    padding-top: 28px;
+    font-size: 1.75rem;
+}
+.sidetext p {
+    font-size: 1.25rem;
+}
+footer {
+    border-top: 1px solid lightgray;
+    display: flex;
+    width: 100%;
+}
+.license {
+    padding-top: 16px;
+    padding-left: 24px; 
+    width: 90%;
+}
+.terms {
+    float: right;
+    padding-top: 16px;
+}
